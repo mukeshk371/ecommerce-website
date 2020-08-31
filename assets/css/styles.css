@@ -16,6 +16,26 @@ body {
     color: var(--secondary-color);
 }
 
+.menu-popup {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: calc(100vh - 110px);
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: none;
+}
+.menu-box {
+    background: var(--white-color);
+    width: 85%;
+    height: 440px;
+    margin: auto;
+    overflow: auto;
+    box-shadow: inset 0 0 8px rgba(0,0,0,.1);
+}
+
+/*------------------------------------------Header-------------------------------------------*/
+
 .header {
     width: 100%;
     position: fixed;
@@ -38,7 +58,7 @@ header {
     border-bottom: 1px solid #eee;
 }
 
-.sub-header a {
+.sub-header .menu {
     margin-right: 10px;
     padding: 0 20px;
     width: fit-content;
@@ -48,30 +68,24 @@ header {
     border-bottom: 2px solid transparent;
 }
 
-.sub-header a:last-child {
+.sub-header .menu:last-child {
     margin-right: 0;
 }
 
-.sub-header:hover a {
+.sub-header:hover .menu {
     color: var(--light-gray-color);
 }
 
-.sub-header a:hover {
+.sub-header .menu:hover {
     text-decoration: none;
     color: #000;
     border-bottom: 2px solid var(--primary-color);
 }
+.sub-header .menu:hover .menu-popup {
+    display: block;
+}
 
-/* .sub-header a.active:after, .sub-header a:hover:after {
-    background: var(--primary-color);
-    width: 100%;
-    height: 2px;
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    border-radius: 2px 2px 0 0;
-} */
+/*------------------------------------------Input-------------------------------------------*/
 
 input {
     min-width: 300px;
