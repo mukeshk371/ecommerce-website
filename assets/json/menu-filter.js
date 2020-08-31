@@ -22,7 +22,6 @@ var menuList = [
                 ]
             },
             {
-                "id": "footwear",
                 "name": "Footwears",
                 "options": [
                     {
