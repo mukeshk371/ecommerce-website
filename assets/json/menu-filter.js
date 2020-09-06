@@ -8,15 +8,15 @@ var menuList = [
                 "name": "Toptwear",
                 "options": [
                     {
-                        "id": "casual-shirts",
+                        "id": "11",
                         "name": "Casual Shirts",
                     },
                     {
-                        "id": "formal-shirts",
+                        "id": "22",
                         "name": "Formal Shirts",
                     },
                     {
-                        "id": "t-shirts",
+                        "id": "33",
                         "name": "T Shirts",
                     }
                 ]
@@ -25,15 +25,15 @@ var menuList = [
                 "name": "Footwears",
                 "options": [
                     {
-                        "id": "casual-shoes",
+                        "id": "111",
                         "name": "Casual Shoes",
                     },
                     {
-                        "id": "formal-shoes",
+                        "id": "222",
                         "name": "Formal Shoes",
                     },
                     {
-                        "id": "sports-shoes",
+                        "id": "333",
                         "name": "Sports Shoes",
                     }
                 ]
@@ -49,15 +49,15 @@ var menuList = [
                 "name": "Toptwear",
                 "options": [
                     {
-                        "id": "casual-shirts",
-                        "name": "Casual Shirts",
+                        "id": "123",
+                        "name": "Top",
                     },
                     {
-                        "id": "formal-shirts",
-                        "name": "Formal Shirts",
+                        "id": "1234",
+                        "name": "Shirt",
                     },
                     {
-                        "id": "t-shirts",
+                        "id": "12345",
                         "name": "T Shirts",
                     }
                 ]
@@ -67,72 +67,20 @@ var menuList = [
                 "name": "Footwears",
                 "options": [
                     {
-                        "id": "casual-shoes",
-                        "name": "Casual Shoes",
+                        "id": "123456",
+                        "name": "Sandles",
                     },
                     {
-                        "id": "formal-shoes",
-                        "name": "Formal Shoes",
+                        "id": "1234567",
+                        "name": "Slippers",
                     },
                     {
-                        "id": "sports-shoes",
-                        "name": "Sports Shoes",
+                        "id": "12345678",
+                        "name": "Boots",
                     }
                 ]
             }
         ]
-    },
-    // Kids
-    {
-        "id": "kids",
-        "name": "Kids",
-        "options": [
-            {
-                "name": "Toptwear",
-                "options": [
-                    {
-                        "id": "casual-shirts",
-                        "name": "Casual Shirts",
-                    },
-                    {
-                        "id": "formal-shirts",
-                        "name": "Formal Shirts",
-                    },
-                    {
-                        "id": "t-shirts",
-                        "name": "T Shirts",
-                    }
-                ]
-            },
-            {
-                "id": "footwear",
-                "name": "Footwears",
-                "options": [
-                    {
-                        "id": "casual-shoes",
-                        "name": "Casual Shoes",
-                    },
-                    {
-                        "id": "formal-shoes",
-                        "name": "Formal Shoes",
-                    },
-                    {
-                        "id": "sports-shoes",
-                        "name": "Sports Shoes",
-                    }
-                ]
-            }
-        ]
-    },
-    // Home & Living
-    {
-        "id": "home-living",
-        "name": "Home & Living"
-    },
-    // Offers
-    {
-        "id": "offers",
-        "name": "Offers"
     }
 ]
 
