@@ -14,11 +14,10 @@ function createMenuItemList(details) {
     menu.classList.add('d-flex', 'align-items-center', 'menu');
     menu.appendChild(menuPopup);
     menu.addEventListener('click', function () {
+        console.log(details);
         for (var l = 0; l < details.length; l++) {
-            if (menu.details.id = details.id) {
-                var menuListing = details[l].length;
-                loadSubMenu(menuListing);
-            }
+            var menuListing = details[l].length;
+            loadSubMenu(menuListing);
         }
     });
 
